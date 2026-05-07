@@ -37,4 +37,20 @@ entra-hybrid/
 ├── images/
 ├── docs/
 ├── bicep/
-└── scripts/
+└── scripts/ 
+```
+
+
+
+## Status
+
+Completed — future improvements will include Conditional Access testing, Password Hash Sync validation, and hybrid identity troubleshooting scenarios.
+```txt
+On-prem AD DS / Domain Controller
+        ↓
+Microsoft Entra Connect Sync
+        ↓
+Microsoft Entra ID
+        ↓
+Microsoft 365 / Azure / Cloud Apps
+
